@@ -7,6 +7,23 @@ The two main projects stored here are:
 - **`website`** — the company's public-facing web presence.
 - **`backoffice`** — the internal admin application. This is the ideal place to develop multiple solutions within a single project: authentication, people management, operations management, internal communication, and other back-office capabilities.
 
+## Initialized frontend structure
+
+The frontend workspace is initialized with this base structure:
+
+- `uis/website/`
+	- `README.md`
+	- `README.es.md`
+	- `src/`
+	- `public/`
+	- `docs/`
+- `uis/backoffice/`
+	- `README.md`
+	- `README.es.md`
+	- `src/`
+	- `public/`
+	- `docs/`
+
 Organize `uis/` by **different concerns** — each subfolder covers a distinct area of the company (for example, public web vs internal operations) and includes its own technical and functional documentation.
 
 - **Main purpose**: to centralize in a single place all frontend applications that support the company's use cases.

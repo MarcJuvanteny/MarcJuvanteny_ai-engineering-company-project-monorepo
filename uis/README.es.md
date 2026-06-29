@@ -7,6 +7,23 @@ Los dos proyectos principales que se almacenan aquí son:
 - **`website`** — la presencia web pública de la compañía.
 - **`backoffice`** — la aplicación interna de administración. Es el lugar ideal para desarrollar múltiples soluciones dentro de un mismo proyecto: autenticación, gestión de personas, gestión de operaciones, comunicación interna y otras capacidades de back-office.
 
+## Estructura frontend inicializada
+
+El espacio frontend queda inicializado con esta estructura base:
+
+- `uis/website/`
+	- `README.md`
+	- `README.es.md`
+	- `src/`
+	- `public/`
+	- `docs/`
+- `uis/backoffice/`
+	- `README.md`
+	- `README.es.md`
+	- `src/`
+	- `public/`
+	- `docs/`
+
 Organiza `uis/` por **distintas áreas de la compañía** — cada subcarpeta agrupa un ámbito diferente (por ejemplo, web pública frente a operaciones internas) e incluye su propia documentación técnica y funcional.
 
 - **Propósito principal**: centralizar en un único lugar todas las aplicaciones frontend que dan soporte a los casos de uso de la compañía.
